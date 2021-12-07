@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+<style>
+    p {
+        font-size: 16px;
+    }
+    header {
+        min-height: 100px;
+    }
+
+    #search {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #search input {
+        width: 60%;
+        height: 50px;
+        border: none;
+        border-radius: 6px;
+        padding-left: 40px;
+        border: 1px solid gray
+    }
+    #search input:focus {
+        border: none
+    }
+
+    #search-md {
+        display: none;
+    }
+    #cart {
+        display: flex;
+        padding-top: 25px;
+    }
+    #cart i {
+        font-size: 30px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="container-fluid header-container">
+            <div class="row">
+                <div class="col-2 logo">
+                    <img src="https://www.petmate.com/file/collections/brand-petmate.png" alt="" width="160px"
+                        height="auto">
+                </div>
+
+                <div class="col-8">
+                    <div id="search">
+                        <input type="search" placeholder="Serach pet products & education">
+                        <button class="btn btn-lg btn-primary ml-3 "><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="col-2 shop-cart">
+                    <div id="cart">
+                        <span>0 Items <i class="fas fa-cart-plus"></i></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <ul class="nav nav-pills nav-fill">
+                        <li><a class="nav-link text-black" href="#" style="color: black;">Dogs</a></li>
+                        <li><a class="nav-link " href="#" style="color: black;">Cats</a></li>
+                        <li><a class="nav-link " href="#" style="color: black;">Birds & Small Pets</a></li>
+                        <li><a class="nav-link " href="#" style="color: black;">Brands</a></li>
+                        <li><a class="nav-link " href="#" style="color: red;">Sale</a></li>
+                        <li><a class="nav-link " href="#" style="color: black;">Education</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <ul class="nav justify-content-end">
+                        <li><a class="nav-link text-black" style="color: black;" href="#"> <i
+                                    class="far fa-question-circle"></i> Help</a></li>
+                        <li><a class="nav-link " style="color: black;" href="#">My Account <i class="fas fa-paw"></i>
+                            </a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
