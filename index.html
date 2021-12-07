@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petmate casestudy</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .img-responsive {
+            display: none;
+            max-width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .line1 {
+            margin-top: 45px;
+            font-weight: 600;
+            font-size: 46px;
+            text-align: center;
+            line-height: 1;
+        }
+
+        .line2 {
+            font-size: 46px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .content {
+            text-align: center;
+            line-height: 1.1;
+            padding: 26px 24%;
+            margin: 10px 0;
+            line-height: 30px;
+            font-weight: 300;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+        }
+
+        .redirect {
+            color: #2654bf;
+            font-size: 13px;
+            font-weight: bold;
+            font-family: 'Nunito', sans-serif;
+            letter-spacing: 1.1px;
+            position: absolute;
+            right: 0%;
+            top: 20%;
+            /* margin-top: -16%; */
+            text-decoration: none;
+        }
+        .redirect:hover{
+            color: rgb(65, 64, 64);
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .img {
+                display: none;
+            }
+
+            .img-responsive {
+                display: block;
+            }
+
+            .redirect {
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class=img>
+        <a>
+            <img src="https://www.petmate.com/file/general/PM_OurStory_Homepage_Banner_1680x420.jpg" alt="Our Story"
+                width="3788px" height="952px">
+        </a>
+    </div>
+
+
+    <div id="img-responsive">
+        <div class="img1">
+            <a>
+                <img class="img-responsive" width="100%"
+                    src="https://www.petmate.com/file/general/OurStoryMobile_L.jpg">
+            </a>
+        </div>
+        <div class="img2">
+            <a>
+                <img class="img-responsive" width="100%"
+                    src="https://www.petmate.com/file/general/OurStoryMobile_R.jpg">
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <h2 class="line1">Canine Know-How. Feline Facts.</h2>
+                <p class="line2">All-Around Pet Answers.</p>
+                <p class="content">
+                    When your dog won't stop whining or your cat won't stop scratching, find the right answers that will
+                    put
+                    your mind (and your heart) at ease.</p>
+                <a href="#" class="redirect">MORE ARTICLES <i class="fas fa-arrow-right"></i> </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>
